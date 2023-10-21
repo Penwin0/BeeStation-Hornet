@@ -34,6 +34,13 @@
 	area_flags = UNIQUE_AREA | FLORA_ALLOWED | CAVES_ALLOWED | MOB_SPAWN_ALLOWED
 	lighting_overlay_opacity = 0
 
+/area/iceland/underground/safe
+	name = "icecaverns (but safe)"
+	icon_state = "iceland_underground"
+	outdoors = FALSE
+	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	area_flags = UNIQUE_AREA | VALID_TERRITORY | HIDDEN_AREA
+
 /area/iceland/cavern
 	name = "icecaverns"
 	icon_state = "iceland_cave"
